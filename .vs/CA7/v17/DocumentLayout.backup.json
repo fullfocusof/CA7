@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Projects\\CompAlgebra\\CA7\\",
+  "WorkspaceRootPath": "D:\\Projects\\CompAlgebra\\CA7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|C:\\Projects\\CompAlgebra\\CA7\\CA7\\ModInteraction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|solutionrelative:CA7\\ModInteraction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|C:\\Projects\\CompAlgebra\\CA7\\CA7\\ModInteraction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|solutionrelative:CA7\\ModInteraction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|C:\\Projects\\CompAlgebra\\CA7\\CA7\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|D:\\Projects\\CompAlgebra\\CA7\\CA7\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|solutionrelative:CA7\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|D:\\Projects\\CompAlgebra\\CA7\\CA7\\DPTInteraction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|solutionrelative:CA7\\DPTInteraction.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|D:\\Projects\\CompAlgebra\\CA7\\CA7\\DPTInteraction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{795DBD62-3DDA-4EBB-86B8-EE0D03D97AEC}|CA7\\CA7.vcxproj|solutionrelative:CA7\\DPTInteraction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ModInteraction.h",
-              "DocumentMoniker": "C:\\Projects\\CompAlgebra\\CA7\\CA7\\ModInteraction.h",
-              "RelativeDocumentMoniker": "CA7\\ModInteraction.h",
-              "ToolTip": "C:\\Projects\\CompAlgebra\\CA7\\CA7\\ModInteraction.h",
-              "RelativeToolTip": "CA7\\ModInteraction.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "DPTInteraction.h",
+              "DocumentMoniker": "D:\\Projects\\CompAlgebra\\CA7\\CA7\\DPTInteraction.h",
+              "RelativeDocumentMoniker": "CA7\\DPTInteraction.h",
+              "ToolTip": "D:\\Projects\\CompAlgebra\\CA7\\CA7\\DPTInteraction.h",
+              "RelativeToolTip": "CA7\\DPTInteraction.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-07T23:31:25.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ModInteraction.cpp",
-              "DocumentMoniker": "C:\\Projects\\CompAlgebra\\CA7\\CA7\\ModInteraction.cpp",
-              "RelativeDocumentMoniker": "CA7\\ModInteraction.cpp",
-              "ToolTip": "C:\\Projects\\CompAlgebra\\CA7\\CA7\\ModInteraction.cpp",
-              "RelativeToolTip": "CA7\\ModInteraction.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DPTInteraction.cpp",
+              "DocumentMoniker": "D:\\Projects\\CompAlgebra\\CA7\\CA7\\DPTInteraction.cpp",
+              "RelativeDocumentMoniker": "CA7\\DPTInteraction.cpp",
+              "ToolTip": "D:\\Projects\\CompAlgebra\\CA7\\CA7\\DPTInteraction.cpp",
+              "RelativeToolTip": "CA7\\DPTInteraction.cpp",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAUwJsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-07T23:31:39.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Main.cpp",
-              "DocumentMoniker": "C:\\Projects\\CompAlgebra\\CA7\\CA7\\Main.cpp",
+              "DocumentMoniker": "D:\\Projects\\CompAlgebra\\CA7\\CA7\\Main.cpp",
               "RelativeDocumentMoniker": "CA7\\Main.cpp",
-              "ToolTip": "C:\\Projects\\CompAlgebra\\CA7\\CA7\\Main.cpp",
+              "ToolTip": "D:\\Projects\\CompAlgebra\\CA7\\CA7\\Main.cpp",
               "RelativeToolTip": "CA7\\Main.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAUwKgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-07T23:30:12.542Z",
               "EditorCaption": ""

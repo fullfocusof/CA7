@@ -1,4 +1,4 @@
-﻿#include "ModInteraction.h"
+﻿#include "DPTInteraction.h"
 
 #define KEY_UP 72
 #define KEY_DOWN 80
@@ -24,12 +24,13 @@ void ConsoleCursorVisible(bool show, short size)
 
 int main()
 {
+	srand(time(NULL));
 	setlocale(LC_ALL, "ru");
-	SetConsoleTitle(L"СОК");
+	SetConsoleTitle(L"ДТП");
 	ConsoleCursorVisible(false, 100);
 	SetConsoleTextAttribute(hStdOut, FOREGROUND_GREEN);
 
-	ModInteraction test;
+	DPTInteraction test;
 
 	int active_menu = 0;
 	int keyInput;
@@ -42,7 +43,10 @@ int main()
 
 		vector<string> menu =
 		{
-			"Нахождение мультипликативного обратно элемента",
+			"Решето Эратосфена",
+			"Метод пробных делений",
+			"Тест на основе критерия Вильсона",
+			"Тест Лукаса",
 			"Выход"
 		};
 
@@ -95,7 +99,7 @@ int main()
 
 						try
 						{
-								
+							test.sieveOfEratosthenes();
 						}
 						catch (const exception& ex)
 						{
@@ -107,6 +111,74 @@ int main()
 					break;
 
 					case 1:
+					{
+						system("cls");
+
+						try
+						{
+							int num;
+							cout << "Введите число: ";
+							cin >> num;
+
+							system("cls");
+							if (test.trialDivs(num)) cout << "Число " << num << " является простым";
+							else cout << "Число " << num << " не является простым";
+						}
+						catch (const exception& ex)
+						{
+							cout << ex.what();
+						}
+
+						printQuit();
+					}
+					break;
+
+					case 2:
+					{
+						system("cls");
+
+						try
+						{
+							int num;
+							cout << "Введите число: ";
+							cin >> num;
+
+							system("cls");
+							if (test.testWilson(num)) cout << "Число " << num << " является простым";
+							else cout << "Число " << num << " не является простым";
+						}
+						catch (const exception& ex)
+						{
+							cout << ex.what();
+						}
+
+						printQuit();
+					}
+					break;
+
+					case 3:
+					{
+						system("cls");
+
+						try
+						{
+							int num, k;
+							cout << "Введите число и точность теста: ";
+							cin >> num >> k;
+
+							system("cls");
+							test.testLucas(num, k);
+						}
+						catch (const exception& ex)
+						{
+							cout << ex.what();
+						}
+
+						printQuit();
+					}
+					break;
+
+					case 4:
 					{
 						exitProg = true;
 					}

@@ -18,12 +18,12 @@
     <ClCompile Include="Main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ModInteraction.cpp">
+    <ClCompile Include="DPTInteraction.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ModInteraction.h">
+    <ClInclude Include="DPTInteraction.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

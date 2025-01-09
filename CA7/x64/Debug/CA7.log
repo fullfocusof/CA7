@@ -1,0 +1,5 @@
+﻿  DPTInteraction.cpp
+  Main.cpp
+D:\Projects\CompAlgebra\CA7\CA7\Main.cpp(27,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  CA7.vcxproj -> D:\Projects\CompAlgebra\CA7\x64\Debug\CA7.exe

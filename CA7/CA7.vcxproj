@@ -128,10 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="ModInteraction.cpp" />
+    <ClCompile Include="DPTInteraction.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ModInteraction.h" />
+    <ClInclude Include="DPTInteraction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
